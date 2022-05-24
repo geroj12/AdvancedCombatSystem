@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{fe985e02-760f-46c9-af4f-5dfbbe84d453}">
+		<property name="assetPath">
+			<value>Zombie/BreathIdle/Zombie-Breathing-D4-www.fesliyanstudios.com (1).mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.68</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9fdcfc2b-c52d-467d-b925-1b761bf4ae16}</destination>
+		</relationship>
+	</object>
+</objects>

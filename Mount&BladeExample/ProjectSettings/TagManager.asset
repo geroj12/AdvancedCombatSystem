@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SwordCollider
+  - PlayerSword
+  - Enemy
+  - LeftArmEnemyCollider
+  - RightArmEnemyCollider
+  - BodyEnemyCollider
+  - HeadEnemyCollider
+  - PlayerBlockCollider
+  - EnemySwordCollider
+  - leftArmPlayer
+  - headPlayer
+  - bodyPlayer
+  - rightArmPlayer
+  - Walkable
+  - KillCam
+  - Cinemachine
+  - Ragdoll
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Controller
+  - PostProcessing
+  - 
+  - PlayerSword
+  - Enemy
+  - Snow
+  - Rocks
+  - Mud
+  - Sand
+  - Grass
+  - Wall
+  - Ragdoll
+  - 
+  - leftEnemyArm
+  - rightEnemyArm
+  - bodyEnemy
+  - headEnemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
