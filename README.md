@@ -10,6 +10,9 @@
 > There are different variation approaches to the directional combat system.
 > All variations can be downloaded from Itch.io and tested (link down below under social media)
 
+<img src="https://user-images.githubusercontent.com/73071252/171838023-cb09516d-c0a4-4265-8c99-d5c224c014e8.gif" width="800" />
+
+
 # Engine/Tools
 > <img src="https://user-images.githubusercontent.com/73071252/156392267-4f301341-f902-49d8-bbc3-023aad8ab843.jpg" width="200" /> 
 > [https://unity.com/de]
