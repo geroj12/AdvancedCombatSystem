@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HandleAttackImageDirections : MonoBehaviour
+public class HandleAttackImageDirectionsVar2 : MonoBehaviour
 {  
     float decTimer;
     [SerializeField] private GameObject rechtsImg, linksImg, topImg, mid, block;
@@ -37,11 +37,10 @@ public class HandleAttackImageDirections : MonoBehaviour
                         linksImg.SetActive(true);
                         topImg.SetActive(false);
                         mid.SetActive(false);
-
-                        player.mouseOnRightSide = false;
+                        
                         player.mouseOnLeftSide = true;
-                        player.mouseOnTopSide = false;
-                        player.mouseOnDownSide = false;
+                        player.mouseOnTopSide = player.mouseOnDownSide = player.mouseOnRightSide = false;
+
                     }
                     else if (Input.GetAxis("Mouse X") > 0 && Input.GetAxis("Mouse Y") < 0.15f && Input.GetAxis("Mouse Y") > -0.15f)
                     {
@@ -50,10 +49,10 @@ public class HandleAttackImageDirections : MonoBehaviour
                         topImg.SetActive(false);
                         mid.SetActive(false);
 
-                        player.mouseOnLeftSide = false;
+                        
                         player.mouseOnRightSide = true;
-                        player.mouseOnDownSide = false;
-                        player.mouseOnTopSide = false;
+                        player.mouseOnDownSide = player.mouseOnTopSide = player.mouseOnLeftSide = false;
+
                     }
                     else if (Input.GetAxis("Mouse Y") > 0 && Input.GetAxis("Mouse X") < 0.15f && Input.GetAxis("Mouse X") > -0.15f)
                     {
@@ -63,10 +62,7 @@ public class HandleAttackImageDirections : MonoBehaviour
                         mid.SetActive(false);
 
                        player.mouseOnTopSide = true;
-                       player.mouseOnDownSide = false;
-                       player.mouseOnLeftSide = false;
-                       player.mouseOnRightSide = false;
-
+                       player.mouseOnDownSide = player.mouseOnLeftSide = player.mouseOnRightSide = false;
                     }
                     else if (Input.GetAxis("Mouse Y") < 0 && Input.GetAxis("Mouse X") < 0.15f && Input.GetAxis("Mouse X") > -0.15f)
                     {
@@ -76,12 +72,9 @@ public class HandleAttackImageDirections : MonoBehaviour
                         mid.SetActive(true);
 
                         player.mouseOnDownSide = true;
-                        player.mouseOnLeftSide = false;
-                        player.mouseOnTopSide = false;
-                        player.mouseOnRightSide = false;
+                        player.mouseOnLeftSide = player.mouseOnTopSide = player.mouseOnRightSide = false;                      
                     }
-                }
-
+                }             
             }
         }
         else

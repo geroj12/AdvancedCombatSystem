@@ -1339,7 +1339,7 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blend Tree
+  m_Name: Strafe Movement
   m_Childs:
   - serializedVersion: 2
     m_Motion: {fileID: 7400084, guid: 1bdc2ef74b0fc8b459c915473007e656, type: 3}
@@ -3463,10 +3463,10 @@ AnimatorStateMachine:
     m_Position: {x: 420, y: -70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4080458662527600167}
-    m_Position: {x: 330, y: 50, z: 0}
+    m_Position: {x: 180, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4773028326624457657}
-    m_Position: {x: 850, y: 50, z: 0}
+    m_Position: {x: 970, y: 50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3090248914623400528}
     m_Position: {x: 710, y: -70, z: 0}

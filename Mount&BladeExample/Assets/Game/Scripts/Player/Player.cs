@@ -4,10 +4,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    #region Variables 
-    
-    
-   
+    #region Variables    
     [Header("States")]
     public bool Strafe;
     public bool blockedAttack;
@@ -17,7 +14,6 @@ public class Player : MonoBehaviour
     public bool mouseOnRightSide = false;
     public bool mouseOnTopSide = false;
     public bool mouseOnDownSide = false;
-
     #endregion
 
     float inputX;
@@ -40,7 +36,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject swordSheelth;
     [SerializeField] private GameObject damageCollider;
     public GroundCheck groundCheck;
-    [SerializeField] private HandleAttackImageDirections handleAttackImageDir;
+    [SerializeField] private HandleAttackImageDirectionsVar2 handleAttackImageDir;
     #endregion
 
     void Start()
@@ -65,10 +61,10 @@ public class Player : MonoBehaviour
           anim.SetTrigger("finisher");
     }
 
-    private void FixedUpdate()
-    {
-        handleAttackImageDir.DirectionImages();      
-    }
+    //private void FixedUpdate()
+    //{
+    //    handleAttackImageDir.DirectionImages();      
+    //}
 
     void LateUpdate()
     {
